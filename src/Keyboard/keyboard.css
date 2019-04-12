@@ -1,0 +1,26 @@
+.keyboard-row-key{
+    display: inline-flex;
+    position: relative;
+    left: 400px;
+}
+
+.keyboard-key{
+    background: white;
+    border-radius: 10px;
+    box-shadow: 2px 3px 6px 0px;
+    padding: 12px 20px;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.keyboard-key:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 415px){
+    .keyboard-key{
+        padding: 5px 6px;
+        margin: 2px;
+        font-size: 16px;
+    }
+}

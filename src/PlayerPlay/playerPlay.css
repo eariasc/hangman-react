@@ -1,0 +1,246 @@
+.center{
+    margin: 0 auto;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.gallow{
+    height: 400px;
+    margin: 0 auto;
+}
+
+.rope{
+    background-image: url('../img/rope.png');
+    background-size: contain;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 500px;
+    position: absolute;
+    top: -5px;
+    right: 204px;
+    display: none;
+}
+
+.support-2{
+    background-image: url('../img/support-2.png');
+    background-size: cover;
+    background-position: inherit;
+    height: 100px;
+    width: 500px;
+    position: absolute;
+    top: -50px;
+    left: 500px;
+    z-index: 1;
+    display: none;
+}
+
+.support-1{
+    background-image: url('../img/support-1.png');
+    background-size: contain;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 120px;
+    position: absolute;
+    top: -30px;
+    left: 552px;
+    display: none;
+}
+
+.table{
+    background-image: url('../img/table.png');
+    background-size: contain;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 500px;
+    position: absolute;
+    bottom: -55px;
+    left: 505px;
+    display: none;
+}
+
+/*
+.pata-3{
+    background-image: url('../img/pata-3.png');
+    background-size: cover;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 140px;
+    position: absolute;
+    bottom: 310px;
+    left: 529px;
+    display: none;
+}
+
+.pata-2{
+    background-image: url('../img/pata-2.png');
+    background-size: cover;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    height: 130px;
+    width: 60px;
+    position: absolute;
+    bottom: 338px;
+    right: 531px;
+    display: none;
+}
+
+.pata-1{
+    background-image: url('../img/pata-1.png');
+    background-size: cover;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    height: 170px;
+    width: 100px;
+    position: absolute;
+    bottom: 315px;
+    right: 462px;
+    display: none;
+}  
+*/
+.head{
+    background-image: url('../img/head.png');
+    background-size: contain;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 120px;
+    position: absolute;
+    top: 80px;
+    left: 750px;
+    display: none;
+}
+
+.body{
+    background-image: url('../img/body.png');
+    background-size: contain;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 136px;
+    position: absolute;
+    top: 175px;
+    left: 738px;
+    display: none;
+    z-index: 1;
+} 
+
+.left-hand{
+    background-image: url('../img/left-hand.png');
+    background-size: contain;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 40px;
+    position: absolute;
+    top: 201px;
+    left: 730px;
+    display: none;
+} 
+
+.right-hand{
+    background-image: url('../img/right-hand.png');
+    background-size: contain;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 40px;
+    position: absolute;
+    top: 202px;
+    right: 580px;
+    display: none;
+} 
+
+.pants{
+    background-image: url('../img/pants.png');
+    background-size: contain;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 234px;
+    left: 751px;
+    z-index: 0;
+    display: none;
+} 
+
+.foots{
+    background-image: url('../img/foots.png');
+    background-size: contain;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 110px;
+    position: absolute;
+    top: 280px;
+    left: 754px;
+    display: none;
+} 
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 415px){
+    .rope{
+        left: 176px;
+        top: 40px;
+        width: 115px;
+    }
+
+    .support-2{
+        width: 350px;
+        left: -7px;
+        top: 0px;
+    }
+
+    .support-1{
+        width: 100px;
+        left: 35px;
+        height: 300px;
+        top: 56px;
+    }
+
+    .table{
+        left: 12px;
+        width: 355px;
+        top: 290px;
+    }
+
+    .head{
+        left: 160px;
+        top: 112px;
+    }
+
+    .body{
+        top: 205px;
+        left: 150px;
+    }
+
+    .left-hand{
+        left: 145px;
+        top: 230px;
+    }
+
+    .right-hand{
+        right: 77px;
+        top: 225px;
+    }
+
+    .pants{
+        left: 164px;
+        top: 261px;
+    }
+
+    .foots{
+        left: 168px;
+        top: 309px;
+    }
+
+}

@@ -1,0 +1,14 @@
+.score{
+    position: absolute;
+    right: 30px;
+    top: 40px;
+    font-size: 40px;
+}
+
+@media screen and (max-width: 415px){
+    .score{
+        right: 0px;
+        top: 24px;
+        font-size: 20px;
+    }
+}
