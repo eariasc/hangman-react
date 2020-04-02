@@ -187,6 +187,16 @@
     display: none;
 }
 
+@media screen and (max-width: 1440px){
+    .right-hand{
+        right: 554px;
+    }
+
+    .rope{
+        right: 177px;
+    }
+}
+
 @media screen and (max-width: 415px){
     .rope{
         left: 176px;
